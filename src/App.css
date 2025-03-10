@@ -1,0 +1,71 @@
+/* Removed Syncfusion import */
+/* @import url('https://cdn.syncfusion.com/ej2/material.css'); */
+
+/* Sidebar styling */
+.sidebar {
+    box-shadow: rgba(113, 122, 131, 0.11) 0px 7px 30px 0px;
+}
+
+/* Navbar & Navigation items */
+.nav-item,
+.navbar {
+    z-index: 10000;
+}
+
+/* Responsive Sidebar */
+@media screen and (max-width: 800px) {
+    .sidebar {
+        z-index: 10000000;
+    }
+}
+
+/* Dialogs & Popups */
+.modal,
+.popup {
+    z-index: 1000000 !important;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(216, 216, 216);
+    border-radius: 40px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+/* Color Picker Style (Replacing Syncfusion's) */
+#preview {
+    background: transparent;
+    display: inline-block;
+    height: 80px;
+    margin: 10px 0;
+    min-width: 300px;
+    max-width: 600px;
+    background-color: #008000;
+    border-radius: 8px;
+}
+
+/* Input Group Styling */
+.input-group {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.input-group.success {
+    border: 2px solid #4CAF50;
+}
+
+.input-group.warning {
+    border: 2px solid #FFC107;
+}
+
+.input-group.error {
+    border: 2px solid #F44336;
+}
